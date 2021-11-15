@@ -5,7 +5,7 @@ const App = () => {
 
   const [location, setLocation] = useState("");
 
-  const apiKey = process.env.REACT_APP_HERE_API_KEY;
+  const apiKey = "QNSJowcAaIVm8-aEC6hzwzOZsS5gxz9ddIjFWY-P9KY";
 
   const getLocation = () =>{
     if (navigator.geolocation) {
